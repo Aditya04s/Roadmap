@@ -1,0 +1,167 @@
+# Important Git Workflow
+
+```id="5jlwms"
+Working Directory
+      ↓
+git add
+      ↓
+Staging Area
+      ↓
+git commit
+      ↓
+Repository History
+```
+
+Very important flow.
+
+---
+
+# Step 1: Initialize Git
+
+Inside project folder:
+
+```bash id="8jlwmt"
+git init
+```
+
+Creates hidden:
+
+```id="0jlwmy"
+.git
+```
+
+folder.
+
+This folder stores Git history.
+
+---
+
+# Step 2: Check Status
+
+```bash id="2jlwmm"
+git status
+```
+
+Shows:
+
+* modified files
+* untracked files
+* staged files
+
+You’ll use this CONSTANTLY.
+
+---
+
+# Step 3: Add Files
+
+```bash id="4jlwmp"
+git add Demo.java
+```
+
+OR all files:
+
+```bash id="6jlwm3"
+git add .
+```
+
+Meaning:
+👉 move files to staging area.
+
+---
+
+# Step 4: Commit
+
+```bash id="x’wini7"
+git commit -m "Added demo program"
+```
+
+Creates snapshot/save point.
+
+---
+
+# Important Mental Model
+
+## `git add`
+
+Prepares changes.
+
+## `git commit`
+
+Permanently records snapshot.
+
+Huge difference.
+
+---
+
+# Example Flow
+
+```bash id="4jlwmt"
+git init
+git status
+git add .
+git commit -m "Initial commit"
+```
+
+This is basic workflow.
+
+---
+
+# Your Task
+
+Inside your Java project folder:
+
+Run:
+
+```bash id="9jlwms"
+git init
+```
+
+Then:
+
+```bash id="1jlwmp"
+git status
+```
+
+Then:
+
+```bash id="8jlwmu"
+git add .
+```
+
+Then:
+
+```bash id="3jlwmt"
+git commit -m "First Java commit"
+```
+
+---
+
+# VERY IMPORTANT
+
+If commit gives error asking for username/email:
+
+Run:
+
+```bash id="m0a631"
+git config --global user.name "Your Name"
+```
+
+and:
+
+```bash id="j67k3r"
+git config --global user.email "your@email.com"
+```
+
+Only once required.
+
+---
+
+# Think First
+
+Answer:
+
+1. Difference between `git add` and `git commit`?
+2. What problem does Git solve?
+3. Why is version control important in backend teams?
+
+These concepts matter more than memorizing commands blindly.
