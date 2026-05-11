@@ -1,3 +1,7 @@
 what is this? 
 
 trying to update the github data.
+
+Done successfully, Fist commit 
+
+then push.. Don't directly push
