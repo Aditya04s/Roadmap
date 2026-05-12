@@ -1,10 +1,10 @@
-public class student
+public class Student
 {
     private int id;
     private String name;
     private double marks;
     
-    student(int id, String name, double marks){
+    Student(int id, String name, double marks){
         this.id = id;
         this.name = name;
         this.marks = marks;
