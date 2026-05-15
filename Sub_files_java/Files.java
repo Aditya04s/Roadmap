@@ -2,7 +2,7 @@ import java.io.FileWriter;
 
 public class Files {
         // public static void main(String[] args) throws IOException {
-    public static void main(String[] args)throws Exception{
+    public static void main(String[] args){
         try {
             FileWriter fw = new FileWriter("F_student.txt");
 
