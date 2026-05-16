@@ -1,7 +1,3 @@
-/*
-"aabbbbccdd"
-*/
-
 public class consecutive_freq {
     public static void main(String[] args) {
         // String var = "aabbbbccdd";
